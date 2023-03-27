@@ -1,0 +1,29 @@
+.container{
+    width: auto;
+    margin: 30px;
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc( 100% / 5);
+    aspect-ratio: 1;
+    background-color: #8593c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-15{
+    background-color: #6f95a6;
+}
+
+.box-3{
+    background-color: #9dcec7;
+}
+
+.box-5{
+    background-color: #c9e9e4;
+}
